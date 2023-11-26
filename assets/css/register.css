@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background: linear-gradient(to right,rgb(156, 212, 241),rgb(244, 244, 246));
+    height: 40rem;
+  }
+
+  .register-form {
+    width: 30rem;
+    height: 48rem;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  .register-form h1 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+  }
+
+  .register-form label {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .register-form input {
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    color: black;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .register-form select {
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    color: black;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .register-form button {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .register-form a {
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .register-form button:hover{
+    background-color: black;
+    color: white
+  }
+  .register-form a:hover{
+    color: red;
+  }
